@@ -1,0 +1,135 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.progress-bar-container {
+  width: var(--container-largura);
+}
+
+.login-section {
+  background-color: white;
+  border-radius: 28px;
+  padding: 0px 35px;
+  width: var(--container-largura);
+  height: 400px;
+}
+
+.login-content {
+  padding-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-info,
+.login-form-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+}
+
+.login-form-container {
+  margin-top: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.w-100 {
+  width: 425px
+}
+
+.separator {
+  flex: 1 1 auto;
+}
+
+.login-info-title {
+  color: var(--text-color-primary);
+  font-family: var(--font-family-primary);
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+
+.login-info-subtitle {
+  color: var(--text-color-primary);
+  font-family: var(--font-family-primary);
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: -35px;
+}
+
+.login-guest-mode {
+  font-size: 14px;
+  color: var(--text-color-secondary);
+}
+
+.login-guest-mode .guest-mode-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #005cbb;
+}
+
+.login-guest-mode .guest-mode-link:hover {
+  background-color: rgb(236, 242, 252);
+}
+
+.action-buttons-form {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 2rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.footer {
+  display: flex;
+  width: 940px;
+}
+
+.footer-page-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
+}
+
+.footer-item-list {
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 11px;
+  color: var(--text-color-primary) !important;
+}
+
+.footer-item-list:hover {
+  background-color: rgb(226, 231, 235);
+}
+
+.select-language {
+  width: 180px;
+  padding: 15px;
+  font-size: 12px;
+}
+
+.option-language {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 960px) {
+  .section-container {
+    width: 100%;
+    height: 100%;
+  }
+}
